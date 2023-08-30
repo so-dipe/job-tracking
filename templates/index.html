@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Resume Generator</title>
+</head>
+<body>
+    <h1>Custom Resume Generator</h1>
+    <form method="post" action="/generate_resume">
+        <label for="resume">Enter your resume:</label><br>
+        <textarea name="resume" rows="10" cols="50"></textarea><br>
+        <label for="job_description">Enter the job description:</label><br>
+        <textarea name="job_description" rows="5" cols="50"></textarea><br>
+        <input type="submit" value="Generate Custom Resume">
+    </form>
+    <br>
+    <h2>Generated Resume:</h2>
+    <div id="generated_resume"></div>
+    <script>
+        document.querySelector('form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+            const response = await fetch('/generate_resume', {
+                method: 'POST',
+                body: formData
+            });
+            const data = await response.json();
+            document.getElementById('generated_resume').textContent = data.generated_resume;
+        });
+    </script>
+</body>
+</html>
