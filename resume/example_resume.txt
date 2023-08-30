@@ -1,0 +1,64 @@
+Paul
+Sodipe
+Machine Learning Engineer
+
+67 Ifelodun Street
+Lagos, Nigeria
+08101667854
+sodipepaul@gmail.com
+
+ㅡ
+Summary
+
+ㅡ
+Skills and Softwares
+
+Python (including libraries such as NumPy, Pandas, and Scikit-learn),  SQL, C++, Java; Supervised and unsupervised learning, regression, classification, clustering, feature engineering, model evaluation, ensemble methods, and deep learning; TensorFlow, Keras, PyTorch; Model deployment, containerization (Docker), version control (Git), continuous integration and deployment (CI/CD), model monitoring, cloud platforms (AWS, Google Cloud, Azure); Hypothesis testing, A/B testing, regression analysis, time series analysis.
+ㅡ
+Experience
+
+Self-Employed / Machine Learning Engineer
+OCT 2021 -Present
+
+Kaggle / Kaggle Contributor
+OCT 2021 -Present
+
+Ivy / Open Source Contributor
+JULY 2023 - Present
+
+Hamoye / Data Science Intern
+JUNE 2022 - OCT 2022
+
+ㅡ
+Education
+
+University of Ilorin / B.Sc. Mathematics
+DEC. 2022
+Relevant Coursework: Advanced Calculus, Linear Algebra, Probability Theory, Mathematical Statistics, Numerical Methods, Discrete Mathematics.
+Academic Achievements: Graduated with honours (GPA: 4.16) in the Mathematics program.
+Final Year Project: Mathematical Modelling of Ebola Virus Disease
+Conducted an in-depth study on the spread and impact of the Ebola virus using mathematical modelling techniques.
+Developed mathematical models to simulate and analyze the spread of the disease under different scenarios.
+ㅡ
+Certifications 
+
+IBM Data Science Professional Certificate 
+
+TensorFlow Developer Certificate
+
+ㅡ
+Published Articles
+
+ TFrecords (Part 1): Converting a DataSet into tfrecord files
+
+ TFrecords (Part 2): Reading and training models with tfrecords.
+
+ Reinforcement Learning with Human Feedback 
+
+ㅡ
+Projects
+
+WhatsApp Chat Analyser
+This app takes exported chat data from Whatsapp and runs an analysis on it. Showing useful information like who texted the most, the most active data, and so on. The app was developed using Streamlit and has a strong emphasis on easy-to-understand data visualization
+
+

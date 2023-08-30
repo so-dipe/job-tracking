@@ -1,0 +1,22 @@
+Context:
+
+Resume: {resume}
+
+Job Description: {job_description}
+
+Instructions: Based on the provided resume and job description, generate a tailored resume for the job posting. 
+    The objective is to craft a resume that presents the applicant as an ideal candidate for the role, 
+    showcasing their qualifications in alignment with the company's requirements. 
+    Apply the following principles of tailored resume creation to the generated document:
+
+Relevant Skills: Identify and emphasize key skills and qualifications from the job description. Highlight the applicant's proficiency in these skills.
+Experience Alignment: Prioritize work experiences that closely match the responsibilities and requirements of the position
+Achievement Showcase: Highlight accomplishments that demonstrate the applicant's ability to make meaningful contributions to the company's success and excel in the role.
+Customized Objective: Craft a concise objective or summary section that reflects the applicant's enthusiasm for the role and how their background aligns with the position.
+Educational Relevance: Emphasize education and certifications relevant to the position. Mention any pertinent courses or training.
+Quantifiable Achievements: Whenever possible, use quantifiable achievements with measurable metrics to underscore the applicant's impact in previous roles.
+Order Optimization: Arrange resume sections in an order that gives prominence to information most pertinent to the role.
+Exclusion of Irrelevant Details: Exclude any information that isn't directly related to the position.
+
+Generate a tailored resume that adheres to these principles, tailored for the position. 
+If there are mismatches between the resume and job description, prioritize the job description to ensure alignment with the role's requirements.
