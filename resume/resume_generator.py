@@ -8,11 +8,11 @@ load_dotenv()
 
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-with open("resume/system_prompt.txt", 'r') as f:
+with open("resume/test.txt", 'r') as f:
     system_prompt = f.read()
 
 
-def generate_custom_resume(resume, job_description, system_prompt=system_prompt):
+def generate_custom_resume(job_description, resume=None, system_prompt=system_prompt):
     system_prompt = f"{system_prompt}"
     user_prompt = (
         f"""Please generate a tailored resume for a candidate applying for the role given below.\n"""

@@ -7,7 +7,7 @@ def main():
     with open("resume/example_job_description.txt", "r") as job_description_file:
         job_description = job_description_file.read()
 
-    generated_resume = generate_custom_resume(resume, job_description)
+    generated_resume = generate_custom_resume(job_description, resume)
     print("Generated Resume:")
     print(generated_resume)
 
