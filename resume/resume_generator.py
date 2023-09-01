@@ -28,7 +28,7 @@ def generate_custom_resume(job_description, resume=None, system_prompt=system_pr
     )
 
     generated_resume = response.choices[0].message["content"].strip()
-    return generated_resume
+    return json.loads(generated_resume)
 
 def discuss(generated_resume):
     pass

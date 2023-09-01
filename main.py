@@ -15,8 +15,8 @@ def generate_resume():
 
     # Call your function to generate custom resume
     generated_resume = generate_custom_resume(job_description, resume_text)
-    
-    return jsonify({"generated_resume": generated_resume})
+
+    return jsonify(generated_resume)
 
 if __name__ == "__main__":
     app.run(debug=True)
